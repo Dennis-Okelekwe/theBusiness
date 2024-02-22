@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ThewebPage{
+  width: fit-content;
+  text-align: justify;
+}
+
+.ThewebPage h1{
+    text-align: center;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background: rgba(74, 73, 73, 0.4);
+    padding: 15px 5px 0 0;
+    height: 60px;
+    margin-top: -10px;
+    position: fixed;
+    width: 100%;
+    min-width: 400px;
+    color: #fff;
+}
+
+/*aboutBuiz*/
+.aboutBuiz{
+    background: rgb(251, 247, 247);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: -5px;
+    width: 100%;
+    min-width: 400px;
+    height: 300px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.aboutBuiz .aboutBuiz-image{
+    float: left;
+    padding: 15px;
+}
+
+.aboutBuiz article{
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 60px;
+    color: #000;
+}
+
+.aboutBuiz article span{
+    font-size: 40px;
+    font-weight: 550;
+    padding: 5px;
+}
+
+/*buizStrategy*/
+
+.buizStrategy{
+    width: fit;
+    margin: 10px 0 10px 0;
+    min-width: 400px;
+}
+
+.buizStrategy article{
+    width: 67%;
+    float: left;
+    text-align: justify;
+    line-height: 25px;
+    background: grey;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+    font-weight: 400;
+    margin-top: -10px;
+    padding: 7px;
+    padding-right: 40px;
+    height: 316px;
+}
+
+.buizStrategy article h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*TESTIMONY*/
+.buizStrategy div{
+    width: 30%;
+    min-width: 400px;
+    position: absolute;
+    left: 0px;
+    margin-left: 1050px;
+    top: 1000px;
+    text-align: justify;
+    line-height: 25px;
+    background: rgb(251, 247, 247);
+    color: #000;
+    padding: 10px 0 10px 13.1px;
+}
+
+.buizStrategy div h3{
+    text-align: center;
+}
+
+@media only screen and (width: 400px) {
+    .buizStrategy div{
+        width: 30%;
+        margin-left: 0;
+    }
+}
+
+/*link to product*/
+.linkToProduct{
+    margin: 330px auto 0 auto;
+    margin-top: ;
+    padding-right: 30px;
+    padding-top: 10px;
+    background: grey;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.linkToProduct .someProducts .landing-product1
+{
+    float: left;
+    padding-right: 20px;
+}
+
+.linkToProduct .someProducts .landing-product2
+{
+    float: left;
+    padding-right: 20px;  
+}
+
+.linkToProduct .someProducts .landing-product3
+{
+    padding-left: 10px;
+}
+
+.linkToProduct p
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Georgia;
+}
+
+.linkToProduct p span
+{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+/*footer*/
+footer
+{
+    background: #000;
+    margin-top: -17px;
+    height: 300px;
+    color: #fff;
+}
+
+footer .no-copyright
+{
+    display: inline;
+}
+
+.no-copyright h3
+{
+    display: inline;
+}
+
+footer .no-copyright
+{
+}
+
+
